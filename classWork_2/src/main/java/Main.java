@@ -21,7 +21,7 @@ public class Main {
         printOnlyStaticFields(jFreeClass); //список только статических полей
         System.out.println("\n");
 
-        printMethods(jFreeClass);
+        printMethods(jFreeClass); // список всех методов с указанием  количества и типов их параметров
         System.out.println("\n");
 
 
