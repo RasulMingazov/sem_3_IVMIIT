@@ -1,8 +1,9 @@
+package ex_1;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 import java.lang.reflect.Type;
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -65,7 +66,7 @@ public class Main {
             Type[] types = new Type[parameters.length];
             int j = 0;
             for (Parameter parameter: parameters) {
-                 types[j] = parameter.getType();
+                types[j] = parameter.getType();
                 j++;
             }
             System.out.print("Method number " + i + " : " + method.getName());
