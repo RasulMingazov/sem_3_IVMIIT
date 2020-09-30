@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<writers>
+    <writer name="A.S.Pushkin">
+        <book bName="Ruslan and Ludmilla" pages ="150"/>
+        <book bName="The tale of the fishman and the fish" pages="25"/>
+    </writer>
+    <writer name="L.N.Tolstoy">
+        <book bName="War and peace" pages="1000"/>
+    </writer>
+</writers>
+
