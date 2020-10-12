@@ -13,6 +13,8 @@
         <module>classWork_1</module>
         <module>classWork_2</module>
         <module>classWork_3</module>
+        <module>classWork_4</module>
+        <module>classWork_5</module>
     </modules>
 
     <build>

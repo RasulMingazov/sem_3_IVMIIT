@@ -1,0 +1,71 @@
+[ {
+  "name" : "vasya",
+  "s" : "м",
+  "birthday" : "1987-12-13",
+  "events" : [ {
+    "place" : "казань",
+    "year" : 2003,
+    "result" : 200,
+    "award" : "gold"
+  }, {
+    "place" : "москва",
+    "year" : 2002,
+    "result" : 180,
+    "award" : "silver"
+  } ]
+}, {
+  "name" : "kolya",
+  "s" : "м",
+  "birthday" : "1985-01-13",
+  "events" : [ {
+    "place" : "казань",
+    "year" : 2003,
+    "result" : 160,
+    "award" : "bronze"
+  } ]
+}, {
+  "name" : "shura",
+  "s" : "ж",
+  "birthday" : "1982-02-13",
+  "events" : [ {
+    "place" : "киев",
+    "year" : 2001,
+    "result" : 200,
+    "award" : "gold"
+  }, {
+    "place" : "москва",
+    "year" : 2002,
+    "result" : 200,
+    "award" : "gold"
+  } ]
+}, {
+  "name" : "katya",
+  "s" : "ж",
+  "birthday" : "2000-01-12",
+  "events" : [ {
+    "place" : "нижнекамск",
+    "year" : 2010,
+    "result" : 160,
+    "award" : "bronze"
+  }, {
+    "place" : "Альметьевск",
+    "year" : 2011,
+    "result" : 200,
+    "award" : "gold"
+  } ]
+}, {
+  "name" : "petya",
+  "s" : "м",
+  "birthday" : "2001-01-12",
+  "events" : [ {
+    "place" : "Бугульма",
+    "year" : 2015,
+    "result" : 200,
+    "award" : "gold"
+  }, {
+    "place" : "Минск",
+    "year" : 2017,
+    "result" : 180,
+    "award" : "silver"
+  } ]
+} ]

@@ -1,0 +1,21 @@
+[ {
+  "name" : "katya",
+  "s" : "ж",
+  "birthday" : "2000-01-12"
+}, {
+  "name" : "kolya",
+  "s" : "м",
+  "birthday" : "1985-01-13"
+}, {
+  "name" : "petya",
+  "s" : "м",
+  "birthday" : "2001-01-12"
+}, {
+  "name" : "shura",
+  "s" : "ж",
+  "birthday" : "1982-02-13"
+}, {
+  "name" : "vasya",
+  "s" : "м",
+  "birthday" : "1987-12-13"
+} ]
