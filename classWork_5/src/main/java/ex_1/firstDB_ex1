@@ -1,0 +1,35 @@
+--  update "Countries"
+--  set area = 0.0004
+--  where id = 6
+
+--  insert into "Countries" (name, capital, area, population, continent) values
+-- ( 'Индия', 'Дели', 3288.0, 634200.0,'Азия'),
+-- ('Испания','Мадрид',505.0,36230.0,'Европа'),
+-- ('Агрентина','Буэнос-Айрес',2777.0,26060.0,'Южная Америка'),
+-- ('Китай','Пекин',9597.0,975230.0,'Азия'),
+-- ('Сейшельские Острова','Виктория',0.4,60.0, 'Африка'),
+-- ('Дания (с Гренландией)','Копенгаген',2220.0,5180.0,'Европа'),
+-- ('Судан','Хартум',2506.0,17760.0,'Африка')
+
+-- delete from "Countries" where name = 'Бахрейн'
+
+--   select* from public."Countries"
+
+-- select* from public."Countries"
+-- order by name
+
+--  select name, population from public."Countries"
+--  order by population
+
+--  select name, area from public."Countries"
+--  order by area using>
+-- limit 5 offset 0
+
+-- select* from public."Countries"
+-- where continent = 'Азия'
+
+-- select* from public."Countries"
+-- where area < 1000
+
+-- select* from public."Countries"
+-- where name like 'А%'

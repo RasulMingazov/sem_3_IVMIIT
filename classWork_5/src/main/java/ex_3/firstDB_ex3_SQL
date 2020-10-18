@@ -1,0 +1,12 @@
+select * from cars
+--
+-- insert into Cars (make, color, petname, datepro, price)
+-- values ('Ford', 'Black','Krot', ('2014-03-13'),470000)
+
+-- alter table cars add
+-- discount int2
+
+-- update cars
+-- set discount = 5
+-- where make = 'Ford'
+

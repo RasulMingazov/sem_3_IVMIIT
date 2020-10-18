@@ -1,0 +1,22 @@
+-- create table Cars(
+-- id serial primary key not null,
+-- make character varying (50) not null,
+-- color character varying (50) not null,
+-- petname character varying (50) not null,
+-- datepro timestamp not null,
+-- price money not null);
+
+-- insert into Cars (make, color, petname, datepro, price) values
+-- ('VW','Black', 'Zippy', ('2015-02-12'), 500000),
+-- ('Ford','Rust','Rusty',('2015-02-13'), 450000),
+-- ('Saab','Grey','Mel',('2015-02-14'),550000),
+-- ('Toyota','Yellow','Submarine',('2015-02-15'),520000),
+-- ('BMW','Pink','Pinky',('2014-02-11'),470000),
+-- ('BMW','Green','Hank',('2014-02-10'),510000)
+
+-- update Cars
+-- set price = 70000
+-- where make = 'BMW'
+
+select* from Cars
+where price < numeric::550000
