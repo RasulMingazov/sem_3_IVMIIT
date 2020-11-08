@@ -1,0 +1,9 @@
+CREATE TABLE "comment"(
+    "id"  serial  NOT NULL,
+    "author_id" integer NOT NULL,
+    "post_id" integer NOT NULL,
+    "text"   text,
+    CONSTRAINT "comment_pk" PRIMARY KEY ("id")
+);
+alter table "comment" ADD CONSTRAINT "comment_fk0" FOREIGN KEY ("post_id") REFERENCES "posts"("id");
+alter table "comment" ADD CONSTRAINT "comment_fk1" FOREIGN KEY ("author_id") REFERENCES "users"("id");

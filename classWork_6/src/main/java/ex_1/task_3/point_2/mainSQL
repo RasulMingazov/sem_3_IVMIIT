@@ -1,0 +1,7 @@
+CREATE TABLE "phone"(
+    "id"             serial                 NOT NULL,
+    "phone number"        character varying(75)  NOT NULL,
+    "owner_id" integer NOT NULL,
+    CONSTRAINT "phone_pk" PRIMARY KEY ("id")
+);
+alter table "phone" ADD CONSTRAINT "phone_fk0" FOREIGN KEY ("owner_id") REFERENCES "users"("id");

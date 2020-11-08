@@ -1,0 +1,7 @@
+CREATE TABLE "access"(
+    "id"  serial  NOT NULL,
+    "user_id" integer NOT NULL,
+    "access_level"   character varying(50),
+    CONSTRAINT "access_pk" PRIMARY KEY ("id")
+);
+alter table "access" ADD CONSTRAINT "access_fk0" FOREIGN KEY ("user_id") REFERENCES "users"("id")

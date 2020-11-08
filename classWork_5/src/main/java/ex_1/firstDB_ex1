@@ -1,6 +1,6 @@
 --  update "Countries"
 --  set area = 0.0004
---  where id = 6
+--  where id =
 
 --  insert into "Countries" (name, capital, area, population, continent) values
 -- ( 'Индия', 'Дели', 3288.0, 634200.0,'Азия'),

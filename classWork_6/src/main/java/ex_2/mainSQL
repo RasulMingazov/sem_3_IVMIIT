@@ -1,0 +1,63 @@
+insert into users(name, password, birthday, address_id) values
+('Rasul Mingazov', '1324', '2001-4-23', 1),
+('Vladimir Lenin', '1917', '1870-4-22',2),
+('Petr Vasiliev','opop234','2000-3-23',3),
+('Mikhail Kaleshin','ppee23er', '1932-3-2',4),
+('Arsene Wenger','alekssong23','1958-4-24',5);
+
+insert into address (region, city, street, "house num", "appartment num") values
+('Tatarstan', 'Kazan','Amirkhana', 23,96),
+('Moskovskaya', 'Tula', 'Lenina', 22,31),
+('Leningradskaya', 'Saint-Petersburg','Kalinina',1,63),
+('Tatarstan', 'Almetevsk','Pushkina',15,1),
+('Tatarstan', 'Kazan', 'Butlerova',1,4);
+
+insert into access(user_id, access_level) values
+(1,'admin'),
+(2,'moderator'),
+(3,'moderator'),
+(4,'user'),
+(5,'user');
+
+insert into topics(title, creator_id, createdate) values
+('History',2,'2014-3-3 10:00'),
+('Soccer',5,'2015-3-1 13:45'),
+('Books',2,'2017-4-24 22:01'),
+('Films', 3, '2007-3-12 20:23'),
+('Programming',1,'2009-2-12 17:03');
+
+insert into posts(content, author_id, topics_id) values
+('content about history', 2, 1),
+('content about soccer', 5, 2),
+('content about books', 4, 3),
+('content about films', 1,4),
+('the second content about soccer', 1,2);
+
+insert into phone("phone number", owner_id) values
+('8443424244', 1),
+('24553453t5',3),
+('3456453423',4),
+('434342121',1),
+('543131331',5),
+('321313',2);
+
+insert into comment(author_id, post_id, text) values
+(2,1, 'Yes, i agree'),
+(2,5,'Impossible!'),
+(3,5,'Where is the second part?'),
+(4,1,'Lol'),
+(1,2,'That is weird');
+
+insert into "system blacklist"(user_id, "unlock date") values
+(1,'2019-3-3 11:00'),
+(4,'2015-3-3 10:00'),
+(2,'2011-2-3 11:32'),
+(1, '2020-2-3 11:32'),
+(3, '2014-3-2 22:11');
+
+insert into "topic blacklist"(user_id,"topic_id","unlock date") values
+(1,2,'2014-3-3 11:00'),
+(4,1,'2015-3-3 10:00'),
+(2,4,'2012-2-3 11:32'),
+(1,2, '2010-2-3 11:32'),
+(3,5, '2011-3-2 22:11');

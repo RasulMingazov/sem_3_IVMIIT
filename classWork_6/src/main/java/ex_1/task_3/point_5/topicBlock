@@ -1,0 +1,10 @@
+CREATE TABLE "topic blacklist"(
+    "id"  serial  NOT NULL,
+    "user_id" integer NOT NULL,
+    "topic_id" integer NOT NULL,
+    "unlock date" timestamp NOT NULL,
+    CONSTRAINT "tb_pk" PRIMARY KEY ("id")
+);
+alter table "topic blacklist" ADD CONSTRAINT "tb_fk0" FOREIGN KEY ("user_id") REFERENCES "users"("id");
+alter table "topic blacklist" ADD CONSTRAINT "tb_fk1" FOREIGN KEY ("topic_id") REFERENCES "topics"("id")
+

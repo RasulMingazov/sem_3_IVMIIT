@@ -1,0 +1,7 @@
+CREATE TABLE "system blacklist"(
+    "id"  serial  NOT NULL,
+    "user_id" integer NOT NULL,
+    "unlock date" timestamp NOT NULL,
+    CONSTRAINT "sb_pk" PRIMARY KEY ("id")
+);
+alter table "system blacklist" ADD CONSTRAINT "sb_fk0" FOREIGN KEY ("user_id") REFERENCES "users"("id")

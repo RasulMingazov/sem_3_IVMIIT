@@ -1,0 +1,14 @@
+alter table users
+add birthday date;
+
+CREATE TABLE "address"(
+    "id"             serial                 NOT NULL,
+    "region"         character varying(75)  NOT NULL,
+    "city"           character varying(75)  NOT NULL,
+    "street"         character varying(100) NOT NULL,
+    "house num"      int2                   NOT NULL,
+    "appartment num" int2,
+    CONSTRAINT "address_pk" PRIMARY KEY ("id")
+);
+alter table users add column address_id INTEGER;
+alter table "users" ADD CONSTRAINT "adress_fk0" FOREIGN KEY ("address_id") REFERENCES "address"("id");
