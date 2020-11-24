@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres@localhost" uuid="4efd8367-3b55-48d4-becc-efbfec18af3c">
+    <data-source source="LOCAL" name="task8_db_pg@localhost" uuid="a6109fff-d248-4f42-ac31-3ed450de8466">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/task8_db_pg</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="firstDB@localhost" uuid="09b8b72f-46ae-4f66-bcb9-fffb16ed8af6">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/firstDB</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="task6_db_pg" uuid="604da3d0-ed91-4eee-a020-2e2b1bb1a58a">
+    <data-source source="LOCAL" name="firstDB@localhost" uuid="fdc1cf98-51e9-4bfb-aaac-f9f9983478e4">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>

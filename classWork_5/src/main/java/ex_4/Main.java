@@ -39,7 +39,6 @@ public class Main {
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(url, name, password);
 
-
             PreparedStatement preparedStatement = connection.prepareStatement(
                     "insert into employees(name, birthday, position, offer, notes) values(?,?,?,?,?)");
             for (int i = 0; i < 16; i++) {
