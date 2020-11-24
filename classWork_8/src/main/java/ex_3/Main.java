@@ -7,7 +7,7 @@ public class Main {
 
     private static String url = "jdbc:postgresql://127.0.0.1:5432/task8_db_pg";
     private static String name = "postgres";
-    private static String password = "jean(2001)";
+    private static String password = "";
 
     private static Connection connection = null;
 

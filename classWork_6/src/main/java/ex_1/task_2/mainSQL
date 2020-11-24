@@ -10,7 +10,8 @@ CREATE TABLE "topics" (
 ,"title" varchar(255) NOT NULL
 ,"creator_id" integer NOT NULL
 ,"createdate" TIMESTAMP NOT NULL
-,CONSTRAINT "topics_pk" PRIMARY KEY ("id
+,CONSTRAINT "topics_pk" PRIMARY KEY ("id)
+);
 
 CREATE TABLE "posts" (
 "id" serial NOT NULL,

@@ -1,0 +1,61 @@
+CREATE TABLE "client" (
+"id" serial NOT NULL,
+"name" varchar(255) NOT NULL,
+"phone_number" varchar(64) NOT NULL,
+"name" varchar(64) NOT NULL,
+CONSTRAINT "users_pk" PRIMARY KEY ("id")
+);
+
+CREATE TABLE "order" (
+"id" serial NOT NULL,
+"date" date NOT NULL,
+"client_id" integer NOT NULL,
+"seller_id" integer NOT NULL,
+CONSTRAINT "order_pk" PRIMARY KEY ("id")
+);
+
+CREATE TABLE "product" (
+"id" serial NOT NULL,
+"model" varchar(64) NOT NULL,
+"price" integer NOT NULL,
+"order_id" integer NOT NULL
+CONSTRAINT "product"_pk" PRIMARY KEY ("id")
+);
+
+CREATE TABLE "product_of_order" (
+"id" serial NOT NULL,
+"quantity" integer NOT NULL,
+"order_id" integer NOT NULL
+"product_id" integer NOT NULL,
+CONSTRAINT "proforder_pk" PRIMARY KEY ("id")
+);
+
+CREATE TABLE "seller" (
+"id" serial NOT NULL,
+"name" varchar(64) NOT NULL,
+"team_id" integer NOT NULL,
+"phone_number" varchar(64) NOT NULL,
+"salary" integer NOT NULL,
+CONSTRAINT "seller_pk" PRIMARY KEY ("id")
+);
+
+CREATE TABLE "command" (
+"id" serial NOT NULL,
+"manager_id" integer NOT NULL,
+"workTime" varchar(64) NOT NULL,
+CONSTRAINT "command_pk" PRIMARY KEY ("id")
+);
+
+CREATE TABLE "manager" (
+"id" serial NOT NULL,
+"name" integer NOT NULL,
+"salary" integer NOT NULL,
+"phone_number" varchar(64) NOT NULL,
+CONSTRAINT "command_pk" PRIMARY KEY ("id")
+);
+
+
+
+-- ALTER TABLE "topics" ADD CONSTRAINT "topics_fk0" FOREIGN KEY ("creator_id") REFERENCES "users"("id");
+-- ALTER TABLE "posts" ADD CONSTRAINT "posts_fk0" FOREIGN KEY ("author_id") REFERENCES "users"("id");
+-- ALTER TABLE "posts" ADD CONSTRAINT "posts_fk1" FOREIGN KEY ("topics_id") REFERENCES "topics"("id");
