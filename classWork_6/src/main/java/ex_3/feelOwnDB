@@ -1,0 +1,50 @@
+insert into "client" (client_name, phone_number) values
+('Rasul Mingazov', '89040044004'),
+('Vladimir Lenin', '4344324242'),
+('Petr Vasiliev','24424534232'),
+('Mikhail Kaleshin','422123522'),
+('Arsene Wenger','245992404');
+
+insert into "order"(sale_date, client_id, seller_id) values
+('2018-9-30', 1,3),
+('2018-9-21', 2,1),
+('2016-9-30',1,3),
+('2018-9-20',4,2),
+('2017-9-30',3,2);
+
+insert into "product"(model, price, order_id) values
+('Samsung', 2400),
+('Apple', 33000),
+('Nokia',32343),
+('Nvidea',30200),
+('Intel',30000);
+
+insert into "product_of_order"(quantity, order_id, product_id) values
+(1, 2, 1),
+(2,3,1),
+(1,3,4),
+(4,2,3),
+(3,4,4);
+
+insert into "seller"(seller_name, team_id, phone_number, salary) values
+('Arzamas', 2, '32345654'),
+('Kostya',3,'42323324'),
+('Sasha',1,'3424432'),
+('Masha',2,'24424131'),
+('Serezha',1,'32132311');
+
+insert into "command"(manager_id, workTime) values
+(1, 'monday,friday'),
+(2,'tuesday'),
+(3,'saturday');
+
+insert into "manager"(manager_name, salary,phone_number) values
+('Boss',32333, '42424244'),
+('Pasha',33233,'42424211'),
+('Kolya',44444, '424244551');
+
+
+
+
+
+
