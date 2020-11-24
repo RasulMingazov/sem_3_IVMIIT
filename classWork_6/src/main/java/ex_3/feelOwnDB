@@ -12,7 +12,7 @@ insert into "order"(sale_date, client_id, seller_id) values
 ('2018-9-20',4,2),
 ('2017-9-30',3,2);
 
-insert into "product"(model, price, order_id) values
+insert into "product"(model, price) values
 ('Samsung', 2400),
 ('Apple', 33000),
 ('Nokia',32343),
@@ -27,13 +27,14 @@ insert into "product_of_order"(quantity, order_id, product_id) values
 (3,4,4);
 
 insert into "seller"(seller_name, team_id, phone_number, salary) values
-('Arzamas', 2, '32345654'),
-('Kostya',3,'42323324'),
-('Sasha',1,'3424432'),
-('Masha',2,'24424131'),
-('Serezha',1,'32132311');
+('Arzamas', 2, '32345654',32333),
+('Kostya',3,'42323324',32333),
+('Sasha',1,'3424432',32333),
+('Masha',2,'24424131',32332),
+('Serezha',1,'32132311',32111),
+('Lesha',3,'32132311',32311);
 
-insert into "command"(manager_id, workTime) values
+insert into "command"(manager_id, "workTime") values
 (1, 'monday,friday'),
 (2,'tuesday'),
 (3,'saturday');
