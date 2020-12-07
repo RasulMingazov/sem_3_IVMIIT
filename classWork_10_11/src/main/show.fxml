@@ -28,7 +28,7 @@
          <children>
             <ImageView fx:id="image" fitHeight="202.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@unnamed.png" />
+                  <Image url="@resources/com/classwork/unnamed.png" />
                </image>
             </ImageView>
             <Label fx:id="color" text="color">

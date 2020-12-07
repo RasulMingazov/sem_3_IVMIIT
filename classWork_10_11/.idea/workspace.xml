@@ -22,48 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ea7bbbb-692f-490e-be26-44d9cec7c67c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classWork_10_11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/EditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/ShowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/edit.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/show.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/classwork/edit.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/classWork_10_11FX.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/src/main/java/src/EditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/src/main/java/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/src/main/java/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/src/main/resources/fxml/edit.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_10_11FX/src/main/resources/unnamed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/libraries/lib1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/JavaFxApplication.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_10/classWork_10.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_9FX/classWork_9FX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../classWork_9FX/classWork_9FX.iml" afterDir="false" />
+    <list default="true" id="4ea7bbbb-692f-490e-be26-44d9cec7c67c" name="Default Changelist" comment="-">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/Задание10_JFX_FXML_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/classwork/show.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/show.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +64,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/classwork" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/classwork" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/classwork" />
       <recent name="$PROJECT_DIR$/src/main/java/com/classwork" />
@@ -134,17 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -160,8 +115,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607305066062</updated>
-      <workItem from="1607305068051" duration="4809000" />
+      <workItem from="1607305068051" duration="5154000" />
     </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1607310521358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607310521358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +141,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1607307557592">
       <screen x="0" y="0" width="1440" height="900" />
@@ -187,25 +154,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607305350672" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1607310325201">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1607310878879">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607310325201" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607310878879" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607309724162" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1607310325200">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1607310878878">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607310325200" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607310878878" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607309724161" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1607310325199">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1607310878877">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607310325199" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607310878877" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607309724161" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1607310325200">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1607310878878">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607310325200" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607310878878" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607309724162" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607310535835">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607310535835" />
   </component>
 </project>
