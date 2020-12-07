@@ -51,12 +51,12 @@ public class EditController implements Initializable{
         cityBox.getItems().addAll("Москва","Санкт-Петербург", "Киров", "Уфа", "Барнаул", "Казань");
     }
     @FXML
-    private void onSaveButtonClick(ActionEvent event) throws Exception {
+    private void onSaveButtonClick(ActionEvent event) {
         try {
 
-//            if (login.getText().equals("") || password.getText().equals("") || name.getText().equals("") ||
-//                    cityBox.getValue() == null || address.getText().equals("") || phonesLV == null)
-//                throw new Exception();
+            if (login.getText().equals("") || password.getText().equals("") || name.getText().equals("") ||
+                    cityBox.getValue() == null || address.getText().equals("") || phonesLV == null)
+                throw new Exception();
             User user = new User(
                     login.getText(),
                     password.getText(),
@@ -101,7 +101,7 @@ public class EditController implements Initializable{
         phonesLV.setItems(phonesList);
     }
     @FXML
-    private void changeImage(ActionEvent event) throws MalformedURLException {
+    private void changeImage(ActionEvent event) {
         FileChooser fileChooser= new FileChooser();
         File file = fileChooser.showOpenDialog(((Node)event.getTarget()).getScene().getWindow());
         if (file != null){
