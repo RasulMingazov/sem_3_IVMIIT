@@ -54,9 +54,9 @@ public class EditController implements Initializable{
     private void onSaveButtonClick(ActionEvent event) throws Exception {
         try {
 
-            if (login.getText().equals("") || password.getText().equals("") || name.getText().equals("") ||
-                    cityBox.getValue() == null || address.getText().equals("") || phonesLV == null)
-                throw new Exception();
+//            if (login.getText().equals("") || password.getText().equals("") || name.getText().equals("") ||
+//                    cityBox.getValue() == null || address.getText().equals("") || phonesLV == null)
+//                throw new Exception();
             User user = new User(
                     login.getText(),
                     password.getText(),
