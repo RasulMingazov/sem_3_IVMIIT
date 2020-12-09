@@ -22,41 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ea7bbbb-692f-490e-be26-44d9cec7c67c" name="Default Changelist" comment="-">
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__com_google_code_gson_gson_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/AppInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/Задание11_JFX_FXML_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/app_info.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/ava.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_1/classWork_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../classWork_1/classWork_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../classWork_1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classWork_1/src/main/java/ex_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../classWork_1/src/main/java/ex_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/EditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/ShowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/classwork/edit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/edit.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/classwork/edit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/classwork/edit.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-    </list>
+    <list default="true" id="4ea7bbbb-692f-490e-be26-44d9cec7c67c" name="Default Changelist" comment="-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +131,7 @@
       <updated>1607305066062</updated>
       <workItem from="1607305068051" duration="5154000" />
       <workItem from="1607310915856" duration="31000" />
-      <workItem from="1607311066325" duration="33689000" />
+      <workItem from="1607311066325" duration="34036000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1607310521358</created>
@@ -195,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607311328890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-">
+      <created>1607481896071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607481896071</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,9 +243,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607472264801" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607311332972">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607481898034">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607311332972" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607481898034" />
   </component>
 </project>

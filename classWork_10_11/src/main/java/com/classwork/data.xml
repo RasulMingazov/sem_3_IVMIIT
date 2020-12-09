@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+    <user login="cdcddcdc">
+        <password>123</password>
+        <name>Rasul</name>
+        <birthday>2020-12-01</birthday>
+        <sex>Женский</sex>
+        <city>Kazan</city>
+        <address>dom</address>
+        <color>0x996699ff</color>
+        <flyChecker>false</flyChecker>
+        <phones>[303, 3435, 11123]</phones>
+        <image>file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/@../../../../../pctrs/Снимок%2525252525252520экрана%25252525252525202020-10-15%2525252525252520в%252525252525252021.00.31.png</image>
+    </user>
+    <user login="ckkkkk">
+        <password>123</password>
+        <name>Artem</name>
+        <birthday>1989-12-10</birthday>
+        <sex>Мужской</sex>
+        <city>Kazan</city>
+        <address>dom</address>
+        <color>0xffffffff</color>
+        <flyChecker>false</flyChecker>
+        <phones>[303, 3435, 11123, 303, 3435, 11123]</phones>
+        <image>file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/java/classWork/sem_3/classWork_10_11/file:/Users/a1/Desktop/pctrs/Снимок%25252525252520экрана%252525252525202020-10-07%25252525252520в%2525252525252021.52.38.png</image>
+    </user>
+</users>

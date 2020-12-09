@@ -61,7 +61,6 @@ public class MenuController implements Initializable {
         }
     }
 
-
     @FXML
     public void onDisdeleteFieldClick(ActionEvent event) {
         callAlert("Режим удаления вылючен");

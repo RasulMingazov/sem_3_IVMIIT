@@ -126,9 +126,6 @@ public class EditController implements Initializable{
             }
             users.add(user);
             createNewDocument(users, defaultURL);
-
-
-
             ((Stage)(((Button)event.getSource()).getScene().getWindow())).close();
         }
         catch (Exception e) {
