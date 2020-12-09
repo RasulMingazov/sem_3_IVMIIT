@@ -1,14 +1,11 @@
 package com.classwork;
 
 import javafx.application.Platform;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.stage.Stage;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -23,7 +20,6 @@ public class ShowController implements Initializable {
     private ImageView image;
     @FXML
     private Button close;
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -47,9 +43,6 @@ public class ShowController implements Initializable {
         else {
             flyChecker.setText("Не умеет летать");
         }
-        for (int i = 0; i < user.getPhones().size(); i++) {
-            phones.getItems().add(user.getPhones().get(i));
-        }
+        phones.setItems(user.getPhones());
     }
-
 }

@@ -1,20 +1,28 @@
 package com.classwork;
 
 import javafx.beans.property.*;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
 public class User {
-    private StringProperty login;
-    private StringProperty password;
-    private StringProperty name;
-    private StringProperty birthday;
-    private StringProperty sex;
-    private StringProperty city;
-    private StringProperty address;
-    private StringProperty color;
-    private BooleanProperty flyChecker;
-    private ListProperty<String> phones;
-    private StringProperty image;
+    public StringProperty login;
+    public StringProperty password;
+    public StringProperty name;
+    public StringProperty birthday;
+    public StringProperty sex;
+    public StringProperty city;
+    public StringProperty address;
+    public StringProperty color;
+    public BooleanProperty flyChecker;
+    public ListProperty<String> phones;
+    public StringProperty image;
+
+
+    public User() {
+    }
 
     public User(String login, String password, String name, String birthday, String sex, String city, String address, String color, Boolean flyChecker, ObservableList<String> phones, String image) {
         this.login = new SimpleStringProperty(login);
@@ -27,6 +35,20 @@ public class User {
         this.color = new SimpleStringProperty(color);
         this.flyChecker = new SimpleBooleanProperty(flyChecker);
         this.phones = new SimpleListProperty(phones);
+        this.image = new SimpleStringProperty(image);
+    }
+    public User(String login, String password, String name, String birthday, String sex, String city, String address, String color, boolean flyChecker, ArrayList<String> phones, String image) {
+        this.login = new SimpleStringProperty(login);
+        this.password = new SimpleStringProperty(password);
+        this.name = new SimpleStringProperty(name);
+        this.birthday = new SimpleStringProperty(birthday);
+        this.sex = new SimpleStringProperty(sex);
+        this.city = new SimpleStringProperty(city);
+        this.address = new SimpleStringProperty(address);
+        this.color = new SimpleStringProperty(color);
+        this.flyChecker = new SimpleBooleanProperty(flyChecker);
+        ObservableList<String> phonesObsList = FXCollections.observableArrayList(phones);
+        this.phones = new SimpleListProperty(phonesObsList);
         this.image = new SimpleStringProperty(image);
     }
 
@@ -163,4 +185,22 @@ public class User {
     public void setPhones(ObservableList<String> phones) {
         this.phones.set(phones);
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "login=" + getLogin() +
+                ", password=" + getPassword() +
+                ", name=" + getName() +
+                ", birthday=" + getBirthday() +
+                ", sex=" + getSex() +
+                ", city=" + getCity() +
+                ", address=" + getAddress() +
+                ", color=" + getColor()+
+                ", flyChecker=" + isFlyChecker() +
+                ", phones=" + getPhones() +
+                ", image=" + getImage() +
+                '}';
+    }
 }
+

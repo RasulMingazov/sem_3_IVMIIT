@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="507.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.classwork.MenuController">
+   <children>
+      <VBox>
+         <children>
+            <MenuBar fx:id="menuBar">
+               <menus>
+                  <Menu mnemonicParsing="false" text="Файл">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onSaveClick" text="Сохранить" />
+                        <MenuItem mnemonicParsing="false" onAction="#onSaveAsClick" text="Сохранить как" />
+                        <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#onExitFieldClick" text="Выход" />
+                        <MenuItem fx:id="open" mnemonicParsing="false" onAction="#onOpenFieldClick" text="Открыть" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Детали">
+                     <items>
+                        <MenuItem fx:id="newField" mnemonicParsing="false" onAction="#onNewFieldClick" text="Новый" />
+                        <MenuItem fx:id="changeField" mnemonicParsing="false" onAction="#onChangeFieldClick" text="Изменить" />
+                        <MenuItem mnemonicParsing="false" onAction="#onDeleteFieldClick" text="Удалить" />
+                        <MenuItem fx:id="changeField1" mnemonicParsing="false" onAction="#onDisсhangeFieldClick" text="Не изменять" />
+                        <MenuItem fx:id="changeField11" mnemonicParsing="false" onAction="#onDisdeleteFieldClick" text="Не удалять" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="?">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#onAppInfoClick" text="About" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <AnchorPane prefHeight="458.0" prefWidth="757.0">
+               <children>
+                  <TabPane layoutX="3.0" layoutY="-4.0" prefHeight="471.0" prefWidth="811.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Все пользователи">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="438.0" prefWidth="782.0">
+                                 <children>
+                                    <TableView fx:id="table" layoutX="5.0" layoutY="-5.0" prefHeight="448.0" prefWidth="801.0">
+                                      <columns>
+                                        <TableColumn fx:id="name" prefWidth="75.0" text="Name" />
+                                        <TableColumn fx:id="login" prefWidth="75.0" text="Login" />
+                                          <TableColumn fx:id="password" prefWidth="75.0" text="Password" />
+                                          <TableColumn fx:id="sex" prefWidth="75.0" text="Sex" />
+                                          <TableColumn fx:id="birthday" prefWidth="75.0" text="Birthday" />
+                                          <TableColumn fx:id="city" prefWidth="75.0" text="City" />
+                                          <TableColumn fx:id="flyChecker" prefWidth="75.0" text="Is flying" />
+                                          <TableColumn fx:id="address" prefWidth="75.0" text="Address" />
+                                          <TableColumn fx:id="color" prefWidth="75.0" text="Color" />
+                                          <TableColumn fx:id="phones" prefWidth="150.0" text="Phones" />
+                                      </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

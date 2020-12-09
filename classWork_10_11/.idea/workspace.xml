@@ -22,7 +22,41 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ea7bbbb-692f-490e-be26-44d9cec7c67c" name="Default Changelist" comment="-" />
+    <list default="true" id="4ea7bbbb-692f-490e-be26-44d9cec7c67c" name="Default Changelist" comment="-">
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__com_google_code_gson_gson_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWork_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/AppInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/classwork/Задание11_JFX_FXML_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/app_info.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/ava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classWork_1/classWork_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../classWork_1/classWork_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classWork_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../classWork_1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classWork_1/src/main/java/ex_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../classWork_1/src/main/java/ex_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/EditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/ShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/classwork/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/classwork/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/classwork/edit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/classwork/edit.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/classwork/edit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/classwork/edit.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +65,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -57,16 +92,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/classwork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/classwork" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/classwork" />
-      <recent name="$PROJECT_DIR$/src/main" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.classwork" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/classwork" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/classwork" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/classwork" />
       <recent name="$PROJECT_DIR$/src/main/java/com/classwork" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -96,6 +137,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -113,6 +165,7 @@
       <updated>1607305066062</updated>
       <workItem from="1607305068051" duration="5154000" />
       <workItem from="1607310915856" duration="31000" />
+      <workItem from="1607311066325" duration="33689000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1607310521358</created>
@@ -128,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607310923477</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-">
+      <created>1607311225225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607311225225</updated>
+    </task>
+    <task id="LOCAL-00004" summary="-">
+      <created>1607311328890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607311328890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,37 +218,61 @@
     <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1607307557592">
+    <state x="454" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607329025224">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1607307557592" />
+    <state x="454" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1607329025224" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1607468145105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1607468145105" />
+    <state x="490" y="351" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607456325885">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="490" y="351" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1607456325885" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607305350672">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607305350672" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1607310878879">
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1607481688858">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607481613412" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607481688858" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1607481688857">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607481613411" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607481688857" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1607481688857">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607481613410" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607481688857" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1607481688858">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607481613411" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607481688858" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1607472264802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607310878879" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607309724162" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1607310878878">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607472264802" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1607472264800">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607310878878" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607309724161" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1607310878877">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607472264800" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1607472264799">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607310878877" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607309724161" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1607310878878">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607472264799" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1607472264801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607310878878" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607309724162" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607310925200">
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607472264801" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1607311332972">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607310925200" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607311332972" />
   </component>
 </project>
