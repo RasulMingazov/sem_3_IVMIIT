@@ -49,9 +49,7 @@ public class MenuController implements Initializable {
         try {
             Parent root = loader.load();
             EditController editController = loader.getController();
-            editController.transferMessageForNewUser(table.getSelectionModel().getSelectedItem(),
-                    table.getSelectionModel().getSelectedIndex(),
-                    table.getItems() ,defaultURL);
+            editController.transferMessageForNewUser(table.getItems() ,defaultURL);
             Stage stage = new Stage();
             stage.setScene(new Scene(root));
             stage.setTitle("New User Window");

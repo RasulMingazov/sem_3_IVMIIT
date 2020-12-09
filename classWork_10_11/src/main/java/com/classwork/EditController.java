@@ -66,7 +66,7 @@ public class EditController implements Initializable{
     String defaultURL;
     boolean isForNewUser;
 
-    public void transferMessageForNewUser(User user, int index, ObservableList<User> userss, String defaultURLL) {
+    public void transferMessageForNewUser(ObservableList<User> userss, String defaultURLL) {
         users = userss;
         isForNewUser = true;
         defaultURL = defaultURLL;
