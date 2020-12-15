@@ -1,4 +1,4 @@
-package com.classwork.controllers;
+package com.classwork;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

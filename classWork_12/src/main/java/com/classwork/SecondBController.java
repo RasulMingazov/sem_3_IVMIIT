@@ -1,6 +1,5 @@
-package com.classwork.controllers;
+package com.classwork;
 
-import com.classwork.pojo.Temperature;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

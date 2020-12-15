@@ -1,4 +1,4 @@
-package com.classwork.pojo;
+package com.classwork;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
