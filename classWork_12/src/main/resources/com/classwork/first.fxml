@@ -7,7 +7,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.classwork.FirstController">
+<AnchorPane prefHeight="600.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.classwork.controllers.FirstController">
    <children>
       <BarChart fx:id="bar" barGap="2.0" categoryGap="5.0" layoutX="3.0" prefHeight="265.0" prefWidth="618.0" title="Person">
         <xAxis>
