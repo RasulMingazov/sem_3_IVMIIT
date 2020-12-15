@@ -22,12 +22,9 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class SecondAController implements Initializable {
-    @FXML
-    private TableView<Temperature> tableA, tableB;
-    @FXML
-    private TableColumn<Temperature, LocalDate> dateA;
-    @FXML
-    private TableColumn<Temperature, Integer> tempA;
+    @FXML private TableView<Temperature> tableA, tableB;
+    @FXML private TableColumn<Temperature, LocalDate> dateA;
+    @FXML private TableColumn<Temperature, Integer> tempA;
     ObservableList<Temperature> data;
 
     @Override
